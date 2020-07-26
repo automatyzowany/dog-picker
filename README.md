@@ -1,6 +1,6 @@
 # Dog Picker API
 
-API for an application which will give you the answer, what type of dog is the best for you. Frontend will be in different repository (React.js). Currently work in progress.
+API for an application which will give you the answer, what type of dog is the best for you. Frontend will be in different repository (React.js). Currently work in progress. Backend available here is moreless done (first version). Frontend will be ready soon in different repo.
 
 ### Endpoints
 **Authentication:**<br>
