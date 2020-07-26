@@ -1,4 +1,4 @@
 class Answer < ApplicationRecord
-  # TODO: Add relationships with dogs
-  # TODO: Add relationships with questions
+  belongs_to :dogs
+  belongs_to :questions
 end

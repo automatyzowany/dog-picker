@@ -1,3 +1,3 @@
 class Dog < ApplicationRecord
-  # TODO: Add relationships with answers
+  has_many :answers
 end
