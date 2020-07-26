@@ -30,3 +30,7 @@ curl --location --request POST 'https://jakipies.herokuapp.com/answers/create' \
 ```
 
 **If you want to receieve an access to the application, please send me an e-mail: paweltrelapro@gmail.com**
+
+### Tests
+
+All tests are passing right now. More test is expected to show up very soon.
