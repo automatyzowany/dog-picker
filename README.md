@@ -11,3 +11,6 @@ https://jakipies.herokuapp.com/dogs
 
 List of question, you should answer:
 https://jakipies.herokuapp.com/questions
+
+Currently working on business logic.
+POST endpoint with script calculations will be online soon.
