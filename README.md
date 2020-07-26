@@ -22,7 +22,11 @@ curl --location --request GET 'https://jakipies.herokuapp.com/questions' \<br>
 --header 'Authorization: Bearer authentication_token_here'
 ```
 
-Currently working on business logic.
-POST endpoint with script calculations will be online soon.
+**Post question answers and receive back dogs with most percentage**
+```
+curl --location --request POST 'https://jakipies.herokuapp.com/answers/create' \
+--header 'Authorization: Bearer authentication_token_here' \
+--data-raw '{"1"=>1,"2"=>2,"3"=>2}' # key is the question number, value is the answer
+```
 
 **If you want to receieve an access to the application, please send me an e-mail: paweltrelapro@gmail.com**
