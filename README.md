@@ -1,6 +1,6 @@
 # Dog Picker API
 
-API for an application which will give you the answer, what type of dog is the best for you. Frontend will be in different repository (React.js). Currently work in progress. Backend available here is moreless done (first version). Frontend will be ready soon in different repo.
+API for an application which will give you the answer, what type of a dog is the best for you. Frontend will be in the different repository (React.js). Currently work in progress. Backend available here is moreless done (first version). 
 
 ### Endpoints
 **Authentication:**<br>
@@ -10,19 +10,19 @@ curl --location --request POST 'https://jakipies.herokuapp.com/authenticate' \<b
 ```
 You will get an authentication token which should be used in the next requests.
 
-**List of dogs in database:**<br>
+**List of the dogs in the database:**<br>
 ```
 curl --location --request GET 'https://jakipies.herokuapp.com/dogs' \<br>
 --header 'Authorization: Bearer authentication_token_here'
 ```
 
-**List of question, you should answer:**<br>
+**List of the questions you should answer:**<br>
 ```
 curl --location --request GET 'https://jakipies.herokuapp.com/questions' \<br>
 --header 'Authorization: Bearer authentication_token_here'
 ```
 
-**Post question answers and receive back dogs with most percentage**
+**Post question answers and receive back dogs with the best match**
 ```
 curl --location --request POST 'https://jakipies.herokuapp.com/answers/create' \
 --header 'Authorization: Bearer authentication_token_here' \
