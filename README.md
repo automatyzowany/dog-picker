@@ -33,4 +33,4 @@ curl --location --request POST 'https://jakipies.herokuapp.com/answers/create' \
 
 ### Tests
 
-All tests are passing right now. More test is expected to show up very soon.
+All tests are passing right now. More tests are expected to show up very soon.
